@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body::before{
+    content: '';
+    width:100%;
+    height: 100%;
+    background: url("jake-blucker-tMzCrBkM99Y-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: -10;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+    letter-spacing: .1em;
+    text-align: center;
+    margin-top: .8em;
+}
+
+.overlay{
+    position: absolute;
+    visibility:hidden ;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100vh;
+    z-index: -2;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.modal{
+    width:40%;
+    height: 200px;
+    background-color: rgb(255,255,255);
+    box-shadow: 10px 10px 10px rgb(83, 83, 83);
+    padding:1em;
+    border-radius: 20px;
+    margin:0 auto;
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    z-index: 10;
+}
+
+.close-btn{
+    font-size: 1.5rem;
+    color: red;
+    background: none;
+    border: none;
+    transition: all .3s linear;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.close-btn:hover{
+   transform: scale(1.3);
+}
+
+.text{
+    font-size: 1.2rem;
+    margin-top: 1em; 
+    text-align: center;
+}
+
+@media(max-width:740px){
+
+    .modal{
+        width:80%;
+    }
+
+    .text{
+        font-size: 1.1rem;
+    }
+
+
+}
