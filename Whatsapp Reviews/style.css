@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+*{margin:0; padding: 0;}
+
+body{color:rgba(0, 0, 0, 0.781);
+     background-color: hsl(210, 36%, 96%);}
+
+.container{ width:90%;
+            margin:0 auto;
+            text-align: center;
+            padding:1em;}
+
+    
+h1, h4 { letter-spacing: 0.1rem;
+         line-height: 1.25;
+         font-family: "Open Sans", sans-serif;}
+
+h1 { font-size: 3rem;}
+
+h4 { font-size: 1.3rem;}
+
+h1 span {  background:   -webkit-linear-gradient(green , #00E676 );
+                         -webkit-background-clip: text;
+                          -webkit-text-fill-color: transparent;}
+
+.reviews {  background-color: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            width:70%;
+            height: auto;
+            margin: 0 auto;
+            margin-top:4em;
+            padding:1em;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;}
+
+.img-container{ border-radius: 50%;
+                position: relative;
+                width:150px; z-index: 1;
+                height: 150px;}
+
+.img-person{ display: block;
+             max-width: 100%; 
+             width:100%;
+             height: 100%;
+             border-radius: 50%;
+             object-fit: cover;
+             object-position: center;}
+
+.img-container:after{
+
+    content: url('https://api.iconify.design/logos/whatsapp.svg?width=40&height=40');
+    
+    position:absolute;
+    top:15px;
+    left:-10px;
+     }
+
+.img-container:before{
+
+    content: '';
+    width:150px;
+    height: 150px;
+    position: absolute;
+    top:-.25rem;
+    right: -.5rem;
+    border-radius: 50%;
+    background-color: #00E676; 
+    z-index: -1;}
+
+
+
+.author{margin-top: .5em;
+        margin-bottom: .1em;}
+
+.stars{margin-bottom: 1.5em;}
+
+.info{  font-size: 1.2rem;
+        text-align: center;
+        color:  rgb(134, 134, 134);
+        margin-bottom: .5em;}
+
+
+.prev-btn , .next-btn { background: none; 
+                        border: none;
+                        cursor: pointer;}
+
+.prev-btn{margin-right: 1em ;}
+
+@media(max-width:740px){
+
+    h1 { font-size: 2rem;}
+
+}
+
+
+
+    
