@@ -7,7 +7,7 @@ setTimeout(function(){
     modal.style.visibility="visible";
     overlay.style.visibility="visible";
    
-} , 1000);
+} , 2000);
 
 closeBtn.addEventListener("click", function(){
     modal.style.visibility="hidden";
