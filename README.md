@@ -10,7 +10,7 @@ Solidify my knowledge of Javascript by creating these cool basic projects !
 |**05**|  [NavBar](https://github.com/lynnaouad/JavaScript-Projects/tree/main/navBar)  |[Live Demo](https://lynnaouad.github.io/JavaScript-Projects/navBar/)|
 |**06**|  [SideBar](https://github.com/lynnaouad/JavaScript-Projects/tree/main/sideBar)  |[Live Demo](https://lynnaouad.github.io/JavaScript-Projects/sideBar/)|
 |**07**|  [Questions](https://github.com/lynnaouad/JavaScript-Projects/tree/main/Questions)  |[Live Demo](https://lynnaouad.github.io/JavaScript-Projects/Questions/)|
-|**07**|  []()  |[Live Demo]()|
+|**08**|  [Concert Seats](https://github.com/lynnaouad/JavaScript-Projects/tree/main/Concert%20seats)  |[Live Demo]((https://lynnaouad.github.io/JavaScript-Projects/Concert%20seats/)|
 |**07**|  []()  |[Live Demo]()|
 |**07**|  []()  |[Live Demo]()|
 |**07**|  []()  |[Live Demo]()|
