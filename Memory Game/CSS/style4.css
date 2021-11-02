@@ -1,0 +1,6 @@
+img { width: 16%; }
+
+
+@media (max-width:740px){ 
+
+    img { width: 16%; } }

@@ -1,0 +1,38 @@
+body{ margin:0;
+      height: auto;}
+
+
+.container{ margin:0 auto;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6em;
+    width:90%;
+    
+    padding:0.5em; }
+
+.final{ width:50%; 
+        height: auto; 
+        background:#fdd3e3;
+       
+        border-radius: 15px 50px;
+        text-align: center;}
+
+.final h1{ font-family: 'Festive', cursive;
+          font-size: 2.5rem;
+          padding:.5em; 
+          padding-top: 0;
+          margin-bottom: .5em;
+          border-bottom: 10px solid white ;}
+
+ p{ font-family: 'Oswald', sans-serif;
+         font-size: 1.3rem;
+         padding:.5em; 
+         padding-top: 0;
+         margin-bottom: 1.5em;}
+
+h3{font-size: 2rem; }
+
+@media (max-width:740px){
+
+    .final { width:100%; } }
