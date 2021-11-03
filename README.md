@@ -12,7 +12,7 @@ Solidify my knowledge of Javascript by creating these cool basic projects !
 |**07**|  [Questions](https://github.com/lynnaouad/JavaScript-Projects/tree/main/Questions)  |[Live Demo](https://lynnaouad.github.io/JavaScript-Projects/Questions/)|
 |**08**|  [Concert Seats](https://github.com/lynnaouad/JavaScript-Projects/tree/main/Concert%20seats)  |[Live Demo](https://lynnaouad.github.io/JavaScript-Projects/Concert%20seats/)|
 |**09**|  [Memory Game](https://github.com/lynnaouad/JavaScript-Projects/tree/main/Memory%20Game)  |[Live Demo](https://lynnaouad.github.io/JavaScript-Projects/Memory%20Game/)|
-|**07**|  []()  |[Live Demo]()|
+|**10**|  [Song Lyrics](https://github.com/lynnaouad/JavaScript-Projects/tree/main/Song%20Lyrics)  |[Live Demo](https://lynnaouad.github.io/JavaScript-Projects/Song%20Lyrics/)|
 |**07**|  []()  |[Live Demo]()|
 |**07**|  []()  |[Live Demo]()|
    
