@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Lyrics</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <header>
+
+            <img class="logo" src="chrome_oQ23MVu3Cm-removebg-preview.png" alt="logo" />
+            <h3>Lyrics</h3>
+            
+            <form id="form">
+                <input type="text" class="search" id="search"  placeholder="Enter artist or song name..." required spellcheck=""/>
+                
+                <button class="cta">
+                    <span>Search</span>
+                    <svg width="15px" height="10px" viewBox="0 0 13 10">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
+            </form>
+
+        </header>
+
+        <div id="result" class="lyrics-container">
+            <p>Results will be displayed here</p>
+        </div>
+    
+
+    </div>
+    
+
+<script src="js.js"></script>    
+</body>
+</html>
