@@ -14,7 +14,7 @@ Solidify my knowledge of Javascript by creating these cool basic projects !
 |**09**|  [Memory Game](https://github.com/lynnaouad/JavaScript-Projects/tree/main/Memory%20Game)  |[Live Demo](https://lynnaouad.github.io/JavaScript-Projects/Memory%20Game/)|
 |**10**|  [Song Lyrics](https://github.com/lynnaouad/JavaScript-Projects/tree/main/Song%20Lyrics)  |[Live Demo](https://lynnaouad.github.io/JavaScript-Projects/Song%20Lyrics/)|
 |**11**|  [Movie App](https://github.com/lynnaouad/JavaScript-Projects/tree/main/Movie%20App)  |[Live Demo](https://lynnaouad.github.io/JavaScript-Projects/Movie%20App/)|
-|**07**|  []()  |[Live Demo]()|
+
    
 
 
